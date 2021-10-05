@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>Mise en page avec float</title>
+    <style>
+        .container{
+            background-color: grey;
+            width: 400px;
+            height: 400px;
+        }
+        .my-div{
+        width: 150px;
+        height: 50px;
+        background-color: tomato;
+        float:left;
+        }
+        .my-beige{
+            background-color: beige!important;
+        }
+        .retour{
+        clear: left;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mise en page avec float</h1>
+    <div class="container">
+        <div class="my-div">A</div>
+        <div class="my-div my-beige retour">B</div>
+        <div class="my-div">C</div>
+        <div class="my-div my-beige">D</div>
+   </div>
+</body>
+</html>
